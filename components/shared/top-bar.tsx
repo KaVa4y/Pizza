@@ -10,7 +10,7 @@ interface Props {
 export const TopBar: React.FC<Props> = ({ className }) => {
     return (
         <div className={cn('sticky top-0 bg-white', className)}>
-            <Container>
+            <Container className="flex justify-between">
                 <Categories/>
                 <SortPopup/>
             </Container>

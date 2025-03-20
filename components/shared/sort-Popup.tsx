@@ -7,7 +7,7 @@ interface Props {
 export const SortPopup: React.FC<Props> = ({ className }) => {
     return (
         <div>
-            <p className="flex items-center gap-1"><ArrowUpDown size={24}/>Сортировка: <a className="text-primary">рейтингн</a></p>
+            <p className="flex items-center gap-1"><ArrowUpDown size={24}/>Сортировка: <a className="text-primary">рейтингу<em></em></a></p>
         </div>
     );
 };
